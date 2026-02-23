@@ -11,6 +11,7 @@
 		A71197F22F495C7600467E5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71197F12F495C7600467E5A /* ContentView.swift */; };
 		A71197F42F495C7800467E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71197F32F495C7800467E5A /* Assets.xcassets */; };
 		A71197F72F495C7800467E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71197F62F495C7800467E5A /* Preview Assets.xcassets */; };
+		A71197FE2F495EF200467E5A /* ColorSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71197FD2F495EF200467E5A /* ColorSquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A71197F12F495C7600467E5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A71197F32F495C7800467E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71197F62F495C7800467E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A71197FD2F495EF200467E5A /* ColorSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A71197EF2F495C7600467E5A /* LazyDemosApp.swift */,
 				A71197F12F495C7600467E5A /* ContentView.swift */,
+				A71197FD2F495EF200467E5A /* ColorSquareView.swift */,
 				A71197F32F495C7800467E5A /* Assets.xcassets */,
 				A71197F52F495C7800467E5A /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71197F22F495C7600467E5A /* ContentView.swift in Sources */,
+				A71197FE2F495EF200467E5A /* ColorSquareView.swift in Sources */,
 				A71197F02F495C7600467E5A /* LazyDemosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

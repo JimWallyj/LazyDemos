@@ -9,11 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ScrollView {
+            
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))]){
+                ForEach(0..<7){ i in
+                    ColorSquareView(number: i) // Code for this view is in the separate file, ColorSquareView.
+                        .onAppear{
+                            print("Rendering View: \(i)")
+                        }
+                }
+            }
         }
         .padding()
     }
